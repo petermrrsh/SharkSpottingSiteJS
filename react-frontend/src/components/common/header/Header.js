@@ -1,46 +1,46 @@
-import * as React from "react";
-import { Navbar } from "../navbar/Navbar";
-import "./Header.css";
+import * as React from 'react';
+import { Navbar } from '../navbar/Navbar';
+import './Header.css';
 
 const image = {
-  width: "110%",
-  height: "300px",
-  marginLeft: "-5%",
-  marginRight: "-5%",
+  width: '110%',
+  height: '300px',
+  marginLeft: '-5%',
+  marginRight: '-5%'
 };
 
 const centered = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  color: "white",
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  color: 'white'
 };
 
 const container = {
-  position: "relative",
-  textAlign: "center",
+  position: 'relative',
+  textAlign: 'center'
 };
 
 const topHeader = {
-  backgroundColor: "#005D71",
-  color: "white",
-  marginLeft: "-10%",
-  marginRight: "-10%",
-  marginTop: "-1rem",
-  paddingLeft: "10%",
-  paddingTop: "1rem",
-  top: "-1rem",
-  paddingBottom: "1rem",
-  display: "flex",
-  verticalAlign: "middle",
+  backgroundColor: '#005D71',
+  color: 'white',
+  marginLeft: '-10%',
+  marginRight: '-10%',
+  marginTop: '-1rem',
+  paddingLeft: '10%',
+  paddingTop: '1rem',
+  top: '-1rem',
+  paddingBottom: '1rem',
+  display: 'flex',
+  verticalAlign: 'middle'
 };
 
 const logo = {
-  color: "white",
-  fontFamily: "trattatello",
-  verticalAlign: "middle",
-  fontSize: "200%",
+  color: 'white',
+  fontFamily: 'trattatello',
+  verticalAlign: 'middle',
+  fontSize: '200%'
 };
 
 export function Header() {
@@ -68,4 +68,3 @@ export function Header() {
     </section>
   );
 }
-

@@ -1,7 +1,7 @@
-import * as React from "react";
+import * as React from 'react';
 //import axios from 'axios';
-import { Header } from "./common/header/Header";
-import { AboutPage } from "./AboutPage";
+import { Header } from './common/header/Header';
+import { AboutPage } from './AboutPage';
 
 export function Page() {
   return (
